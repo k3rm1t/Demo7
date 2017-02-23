@@ -22,21 +22,21 @@
                 <TextBox x:Name="NameTextBox" Width="250"/>
             </StackPanel>
             <!-- email-->
-            <StackPanel Orientation="Horizontal" >
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                 <TextBlock Text="Email:" Width="100"/>
                 <TextBox x:Name ="emailtextbox" Width="250"/>
             </StackPanel>
             <!-- password-->
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                 <TextBlock Text="Password:" Width="100"/>
                 <PasswordBox x:Name ="passwordbox" Width="250"/>
             </StackPanel>
             <TextBlock Text="User level:"/>
             <StackPanel Orientation="Horizontal">
-                <CheckBox x:Name="normalUserCheckbox" 
+                <RadioButton x:Name="normalUserCheckbox" 
                           Content="Normal User"
                           IsChecked="True"/>
-                <CheckBox x:Name="Adminscheckbox" 
+                <RadioButton x:Name="Adminscheckbox" 
                           Content="Admin"/>
             </StackPanel>
             <Button x:Name="savebutton" 
