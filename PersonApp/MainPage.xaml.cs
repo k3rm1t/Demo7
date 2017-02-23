@@ -47,6 +47,7 @@ namespace PersonApp
             if ((bool)normalUserCheckbox.IsChecked)
             {
                 Debug.WriteLine("Normal user");
+
             }
         }
     }
