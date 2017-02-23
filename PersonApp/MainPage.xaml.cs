@@ -34,7 +34,8 @@ namespace PersonApp
             // Window size 800x600
             ApplicationView.PreferredLaunchViewSize = new Windows.Foundation.Size(800, 600);
             //disable debugging
-            App.Current.DebugSettings.EnableFrameRateCounter = false;
+            App.Current.DebugSettings.EnableFrameRateCounter = false; 
+
 
         }
 
